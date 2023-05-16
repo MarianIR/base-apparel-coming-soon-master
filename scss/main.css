@@ -51,13 +51,13 @@ body {
   width: 100%;
   max-width: 40rem;
   height: 30rem;
-  background-image: url("./images/hero-mobile.jpg");
+  background-image: url("/base-apparel-coming-soon-master/images/hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 @media (min-width: 1024px) {
   .main-section .content-section .main-image {
-    background-image: url("./images/hero-desktop.jpg");
+    background-image: url("/base-apparel-coming-soon-master/images/hero-desktop.jpg");
     height: 70rem;
     margin-top: 0;
   }
