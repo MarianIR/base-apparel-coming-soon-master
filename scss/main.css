@@ -14,7 +14,7 @@ html {
 
 body {
   width: 100%;
-  background-image: url("/images/bg-pattern-desktop.svg");
+  background-image: url("./images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -49,14 +49,15 @@ body {
 .main-section .content-section .main-image {
   margin-top: 2rem;
   width: 100%;
-  height: auto;
-  background-image: url("/images/hero-mobile.jpg");
+  max-width: 40rem;
+  height: 30rem;
+  background-image: url("./images/hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 @media (min-width: 1024px) {
   .main-section .content-section .main-image {
-    background-image: url("/images/hero-desktop.jpg");
+    background-image: url("./images/hero-desktop.jpg");
     height: 70rem;
     margin-top: 0;
   }
