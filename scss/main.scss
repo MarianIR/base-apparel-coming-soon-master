@@ -2,7 +2,7 @@
 
 body {
   width: 100%;
-  background-image: url("./images/bg-pattern-desktop.svg");
+  background: url("/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34,11 +34,11 @@ body {
       width: 100%;
       max-width: 40rem;
       height: 30rem;
-      background-image: url("/base-apparel-coming-soon-master/images/hero-mobile.jpg");
+      background: url("../images/hero-mobile.jpg");
       background-repeat: no-repeat;
       background-size: 100%;
       @media (min-width: 1024px) {
-        background-image: url("/base-apparel-coming-soon-master/images/hero-desktop.jpg");
+        background: url("../images/hero-desktop.jpg");
         height: 70rem;
         margin-top: 0;
       }
@@ -66,6 +66,7 @@ body {
         margin: 2rem auto;
         font-size: clamp($fontSize, 6vw, 3rem);
         color: $primariColor1;
+        line-height: 1.5;
       }
       .send-email {
         width: 100%;
